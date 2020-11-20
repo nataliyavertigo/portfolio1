@@ -1,0 +1,496 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,600;1,300;1,500&display=swap');
+
+
+
+
+
+
+/*TEXT STYLES*/
+
+h1 {
+
+	font-family: 'Marcellus', serif;
+	font-size: 60px;
+	font-weight: normal;
+	text-align: center;
+	color: #EBE3DF;
+}
+
+
+
+h4 {
+
+	font-family: 'Marcellus', serif;
+	font-size: 28px;
+	line-height: 1.4em;
+	font-weight: normal;
+	text-align: left;
+	color: #EBE3DF;
+}
+
+
+
+
+h6 {
+	font-family: 'Mulish', sans-serif;
+	font-size: 12px;
+	font-weight: 600;
+	text-align: center;
+	letter-spacing: 0.26em;
+	text-transform: uppercase;
+	color: #EBE3DF;
+	margin-bottom: 24px;
+}
+
+
+p {
+	font-family: 'Mulish'sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	text-align: center;
+	color: #EBE3DF;
+	margin-bottom: 24px;
+
+}
+
+
+.button {
+	background-color: #2F3439;
+	background-position: left;
+	border: none;
+	margin-top: 40px;
+	position: absolute;
+	width: 80px;
+	height: 56px;
+	cursor: pointer;
+	white-space: nowrap;
+	transition: 1s ease;
+
+}
+
+.button:hover {
+	width: 180px;
+	transition: 1s ease;
+}
+
+.button h6 {
+	margin-top: 20px;
+	margin-left: 12px;
+}
+
+img {
+	max-width: 100%;
+	width: auto;
+
+}
+
+
+
+body {
+	background: #1A2027;
+
+}
+
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	border: transparent;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 950px;
+	margin: 150px auto;
+	align-content: center;
+}
+
+
+.containerfullwidth {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 100%;
+	margin: 60px auto;
+}
+
+
+
+.rtl {
+	flex-direction: row-reverse;
+}
+
+.container div {
+	padding: 10px;
+}
+
+.c33 {
+	width: 33.333333%;
+	text-align: center;
+}
+
+.c50 {
+	width: 50%;
+}
+
+.c100 {
+	width: 100%;
+}
+
+
+
+
+
+header {
+	position: fixed;
+	background: rgba(26, 32, 39, .8);
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	z-index: 1;
+	height: 100px;
+}
+
+header h1 {
+	text-align: left;
+}
+
+
+
+a {
+	color: #EBE3DF;
+	text-decoration: none;
+	font-size: 14px;
+	font-family: 'Mulish', sans-serif;
+	font-weight: 400;
+	cursor: pointer;
+
+}
+
+a:visited {
+	color: #EBE3DF;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+
+
+
+
+p {
+	max-width: 800px;
+	line-height: 1.8em;
+	font-family: sans-serif;
+	font-weight: 300;
+	margin-bottom: 30px;
+}
+
+
+.line {
+	border-bottom: solid 1px #EBE3DF;
+}
+
+
+
+
+
+
+#logo {
+	padding: 20px 10px 0px 60px;
+
+
+}
+
+
+nav {
+	position: absolute;
+	top: 40px;
+	right: 60px;
+}
+
+nav ul {
+	list-style: none;
+	;
+
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 32px;
+	vertical-align: top;
+}
+
+
+
+
+.herobanner {
+	margin-top: 200px;
+	width: 1000px;
+	align-content: center;
+}
+
+#intro {
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+
+#aboutme {
+	padding: 200px 0px 0px 120px;
+}
+
+#aboutme h4 {
+	margin-top: 70px;
+	margin-right: 150px;
+}
+
+
+/*PROJECT GRID*/
+
+#prea {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0px 80px;
+	align-content: center;
+
+}
+
+
+#a {
+	display: grid;
+	flex-wrap: wrap;
+	max-width: 1200px;
+	margin: 60px auto;
+	align-content: center;
+}
+
+#title {
+	padding-left: 40px;
+	max-width: 500px;
+	margin: 0px auto;
+	margin-bottom: 30px;
+}
+
+
+#title h4{
+	text-align: center;
+}
+
+#title p {
+	font-family: 'Mulish', sans-serif;
+	text-align: left;
+	font-size: 14px;
+	font-weight: 300;
+	text-align: center;
+	color: #EBE3DF;
+	margin-bottom: 24px;
+}
+
+#projects {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0px auto;
+	align-content: center;
+}
+
+
+#projects .c50 {
+	padding: 40px;
+}
+
+
+#projects h6 {
+	text-align: left;
+	margin-bottom: 0px;
+	margin-top: 0px;
+
+}
+
+#projects h4 {
+	text-align: left;
+	margin-top: 10px;
+
+}
+
+.projectdetails {
+	margin-top: 0px;
+	margin-bottom: 160px;
+
+
+}
+
+.projectdetails img{
+	margin-bottom: 24px;
+}
+
+
+
+.projectdetails a img: hover{
+	width: 700px;
+	
+}
+
+
+.projectdetails button{
+	margin-top: 20px;
+}
+
+
+#ip1 {
+	margin-top: 80px;
+}
+
+
+
+
+.indproject button {
+	margin-top: 16px;
+}
+
+.indproject h6 {
+	margin-top: 0px;
+}
+
+.indproject img:hover {
+	width: 1000px;
+}
+
+
+@media screen and (max-width:1000px) {
+	#aboutme {
+		padding: 80px 0px 0px 60px;
+	}
+
+
+	#aboutme h4 {
+		margin-top: 70px;
+		margin-right: 40px;
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width:768px) {
+	
+		.herobanner h1 {
+		font-size: 40px;
+		font-weight: 100;
+	}
+		#aboutme {
+		padding: 0px 0px 0px 60px;
+	}
+	
+	#ip1{
+		margin-top: 40px;
+	}
+	
+	#title{
+		padding-left: 20px;
+	}
+	
+#projects .c50 {
+	padding: 20px;
+}
+
+	#prea {
+		margin: 0px 20px;
+	}
+	
+	
+}
+
+
+@media screen and (max-width:400px) {
+
+	.herobanner h1 {
+		font-size: 32px;
+		font-weight: 100;
+	}
+
+	.c50 {
+		width: 87%;
+	}
+	
+	#intro .c50 {
+		width: 100%;
+	}
+
+	#imgintro .c50{
+		width: 87%;
+	}
+	
+	
+	.herobanner {
+
+		margin-top: 120px;
+		justify-content: center;
+	}
+
+	#logo {
+		padding: 20px;
+	}
+
+	nav {
+		right: 20px;
+	}
+
+	#intro img{
+		padding-right: 60px;
+	}
+
+
+	#aboutme .line{
+		/*display: none;*/
+	}
+	
+	
+	#aboutme {
+		padding: 60px 0px 0px 30px;
+
+	}
+
+		#aboutme h4{
+		margin-top: 40px;
+		
+
+	}
+
+	.container {
+		margin-bottom: 60px;
+	}
+
+	.containerfullwidth {
+		flex-direction: column;
+	}
+
+	#projects {
+		flex-direction: column;
+	}
+
+	
+	
+	#projects .c50 {
+	padding: 0px;
+}
+
+	#prea {
+		margin: 0px 10px;
+	}
+	
+	
+}
+	
+/*PROJECTS*/
+
+#ip1 {
+	margin-top: 0px;
+}
+
+
+
+
+}
+
+
+
